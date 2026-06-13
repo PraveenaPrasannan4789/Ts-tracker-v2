@@ -18,3 +18,6 @@ console.log("number array", newArray);
 
 let stringArray: string[] = ["ammu", "sreelal", "cyrah"];
 console.log("stringArray", stringArray);
+
+let stringArray2: Array<string> = ["a", "b", "c"];
+console.log("stringArray2", stringArray2);
