@@ -11,3 +11,13 @@ let ageGroup = 35000;
 let totalAmount = 4000;
 
 console.log("ageGroup, totalAmount", ageGroup, totalAmount);
+
+//arrays
+let newArray: number[] = [1, 2, 3, 4, 5];
+console.log("number array", newArray);
+
+let stringArray: string[] = ["ammu", "sreelal", "cyrah"];
+console.log("stringArray", stringArray);
+
+let stringArray2: Array<string> = ["a", "b", "c"];
+console.log("stringArray2", stringArray2);
