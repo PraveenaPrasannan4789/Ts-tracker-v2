@@ -21,3 +21,7 @@ console.log("stringArray", stringArray);
 
 let stringArray2: Array<string> = ["a", "b", "c"];
 console.log("stringArray2", stringArray2);
+
+//tuple
+let tupleExample: [string, number, number] = ["a", 8, 9];
+console.log("tupleExample", tupleExample);
