@@ -34,3 +34,9 @@ enum Role {
 
 let roles: Role = Role.Admin;
 console.log("enum example", roles);
+
+//any type
+let randomValue: any = "string";
+randomValue = true;
+
+console.log("random value", randomValue);
