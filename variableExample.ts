@@ -25,3 +25,18 @@ console.log("stringArray2", stringArray2);
 //tuple
 let tupleExample: [string, number, number] = ["a", 8, 9];
 console.log("tupleExample", tupleExample);
+
+//enum example
+enum Role {
+  Admin,
+  User,
+}
+
+let roles: Role = Role.Admin;
+console.log("enum example", roles);
+
+//any type
+let randomValue: any = "string";
+randomValue = true;
+
+console.log("random value", randomValue);
