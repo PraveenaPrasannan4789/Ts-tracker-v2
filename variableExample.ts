@@ -107,3 +107,12 @@ let user1: { name: string; age: number } = {
   age: 26,
 };
 console.log("user1", user1);
+
+//type assertion another example
+
+let newTypeAsssertionExample: unknown = "example";
+
+// Method 1
+let newTypeAsssertionExampleValue: number = (newTypeAsssertionExample as string)
+  .length;
+console.log("newTypeAsssertionExample", newTypeAsssertionExampleValue);
