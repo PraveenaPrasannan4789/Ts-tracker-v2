@@ -10,3 +10,12 @@ function greet(name?: string) {
 }
 
 greet();
+
+//optional parameter another example
+
+// Optional parameter:
+function greetNew(age?: string) {
+  console.log(age);
+}
+
+greetNew();
